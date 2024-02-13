@@ -1,6 +1,6 @@
 ﻿namespace VegaJuego
 {
-    partial class Form1
+    partial class Level1
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,13 +30,13 @@
         {
             SuspendLayout();
             // 
-            // Form1
+            // Level1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(728, 450);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Level1";
+            Text = "VegaZelda";
             ResumeLayout(false);
         }
 
