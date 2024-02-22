@@ -13,7 +13,7 @@ namespace VegaJuego
         private int escudo;
         private int arma;
 
-        public Link(Level1 vegaZelda, int x, int y, int s, int e, int a) : base(vegaZelda, x, y)
+        public Link(LabelVida vegaZelda, int x, int y, int s, int e, int a) : base(vegaZelda, x, y)
         {
             salud = s;
             escudo = e;

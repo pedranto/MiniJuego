@@ -10,11 +10,11 @@ namespace VegaJuego
     {
         private int coordX;
         private int coordY;
-        private Level1 lienzo;
+        private LabelVida lienzo;
         private PictureBox caja = new PictureBox();
         private String direccion;
 
-        public Personaje(Level1 vegaZelda, int x, int y)
+        public Personaje(LabelVida vegaZelda, int x, int y)
         {
             coordX = x;
             coordY = y;
@@ -48,7 +48,7 @@ namespace VegaJuego
             set { coordX = value; }
         }
 
-        public Level1 Lienzo
+        public LabelVida Lienzo
         {
             get { return lienzo; }
             set { lienzo = value; }
